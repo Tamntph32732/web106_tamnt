@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    float: left;
+}
+.container img{
+    width: 100%;
+}
+@media screen and(max-width: 480px){
+    .container{
+        background-color: white;
+    }
+}

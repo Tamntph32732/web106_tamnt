@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+}
+.container header {
+    width: 100%;
+    height: 51px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 51px;
+}
+.container article{
+    width: 219px;
+    height: 200px;
+    background-color: #FF9800;
+    margin: auto;
+    text-align: center;
+}
+
+.container footer{
+    width: 100%;
+    height: 43px;
+    background-color: #da952d;
+    text-align: center;
+    line-height: 43px
+}
+
+@media only screen and (min-width: 768px){
+    .container header {
+    width: 100%;
+    height: 51px;
+    background-color: #4caf50;
+    text-align: left;
+}
+    .container header h1{
+        line-height: 51px;
+    }
+    .container article{
+        width: 500px;
+        height: 200px;
+        background-color: #FF9800;
+        margin: auto;
+        text-align: center;
+    }
+}
+
