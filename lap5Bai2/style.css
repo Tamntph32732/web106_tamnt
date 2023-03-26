@@ -1,0 +1,9 @@
+video{
+    width: 100%;
+}
+
+@media all and (max-width: 1000px) {
+    video{
+        width: 400px;
+    }
+}
